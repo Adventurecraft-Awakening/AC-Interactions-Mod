@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "ac-interactions",
+  "version": "${version}",
+
+  "name": "AC Interactions",
+  "description": "AC launcher integration",
+  "authors": [
+    "TechPizza"
+  ],
+  "contact": {
+    "sources": "https://github.com/Adventurecraft-Awakening/AC-Interactions",
+    "issues": "https://github.com/Adventurecraft-Awakening/AC-Interactions/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/ac-interactions/icon.png",
+
+  "environment": "client",
+  "mixins": [
+    "ac-interactions.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": "1.0.0-beta.7.3"
+  },
+
+  "custom": {
+    "modmenu:clientsideOnly": true
+  }
+}
